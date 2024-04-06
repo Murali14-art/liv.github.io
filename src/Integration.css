@@ -1,0 +1,42 @@
+.Integration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0A3A44;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: left; 
+  }
+  section.Integration-image {
+    overflow: hidden;
+    position: relative;
+    background: url("./Assets/background03.png")right bottom/15% auto no-repeat; 
+  }
+    
+  .Integration-image {
+    position: absolute;
+    top: 35%; 
+    left: 40%;
+    transform: translate(-50%, -50%); 
+  }
+  .Integration-screen {
+    position: absolute; 
+    bottom: 0;
+    top: 26rem; 
+    right: 0;
+    left: 50rem; 
+    color: white;
+  }
+  
+  .Integration-screen  h1 {
+    color: #ffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+    margin: 0;
+    
+  }
+  

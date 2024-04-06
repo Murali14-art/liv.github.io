@@ -1,0 +1,41 @@
+.innovation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0A3A44;
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: left; 
+}
+section.innovation-image {
+  overflow: hidden;
+  position: relative;
+  background: url("./Assets/background01.png")right bottom/15% auto no-repeat; 
+}
+  
+.innovation-image {
+  position: absolute;
+  top: 30%; 
+  left: 40%;
+  transform: translate(-50%, -50%); 
+}
+.innovation-screen {
+  position: absolute; 
+  bottom: 0;
+  top: 26rem; 
+  right: 0;
+  left: 50rem; 
+  color: white;
+}
+
+.innovation-screen  h1 {
+  color: #ffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5rem;
+  margin: 0;
+  
+}

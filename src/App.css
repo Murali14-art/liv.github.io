@@ -1,38 +1,96 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  overflow: hidden;
+  background-color: #e7f0f1;
+  background: url("./Assets/Vector.png") left top/53% auto no-repeat; /* Set background size to 100% width and auto height */
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e7f0f1;
+}
+
+/* styles.css */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem; /* Adjust padding as needed */
+  background-color: transparent; /* Set header background color to transparent */
+  color: #fff; /* Set text color */
+}
+
+.logo img {
+  width: 100px; /* Set maximum width for the logo */
+}
+
+.nav-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+  padding-left: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links a:hover {
+  color: #5998a4; /* Change color on hover */
+}
+.container {
+  display: grid;
+  place-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Heading {
+  color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5rem;
+  margin: 0;
+  background-image: linear-gradient( #5998A4, #22393ec5);
+  -webkit-background-clip: text; /* Apply gradient as text color for webkit browsers */
+  background-clip: text;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.para {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  margin-bottom: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  border: 1px solid #5998a4;
+  background-color: #5998a4;
+  color: #fff;
+  margin-top: 3rem;
+  padding: 10px;
+  border-radius: 20px;
+  width: 9rem;
 }
